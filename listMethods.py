@@ -19,4 +19,9 @@ numbers.remove(delete)
 print(numbers)
 
 # clear the list
-numbers.clear()
+# numbers.clear() #not workin
+
+# delete at the end
+print("\nPOP METHOD")
+numbers.pop()
+print (numbers)
