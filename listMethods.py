@@ -51,3 +51,9 @@ print("\nREVERSE METHOD")
 numbers.reverse()
 print(numbers)
 
+# Copying a list
+print("\nCOPY METHOD")
+copy = numbers.copy()
+numbers.clear()
+print("Previous list: " + str(numbers))
+print("Coppied List" + str(copy))
