@@ -4,6 +4,13 @@ matrix =[
     ["A", "B", "C", 3242],
     ["D", "E", "F"]
 ]
-for item in matrix:
-    print (item)
+
+for row in matrix:
+    print (row)
+
+for row in matrix:
+    for item in row:
+        print (item)
+
 print(matrix[2][3])
+
