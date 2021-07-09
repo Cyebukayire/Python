@@ -17,3 +17,6 @@ print("\nDELETE METHOD")
 delete = input("Enter number to remove: ")
 numbers.remove(delete)
 print(numbers)
+
+# clear the list
+numbers.clear()
