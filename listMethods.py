@@ -1,4 +1,4 @@
-numbers = [2,4,5,0,9,1,0]
+numbers = [2,4,5,0,9,-67,1,0]
 # print (numbers)
 # print("\nAPPEND METHOD")
 # newNumber = input("Enter number to Append: ")
@@ -31,7 +31,23 @@ numbers = [2,4,5,0,9,1,0]
 # numbers.index(9)
 
 # # Check for existance of item in list
-print("\nEXISTANCE OF AN ITEM")
-num = input("Enter any number to check: ")
-print("Item exists: " + str(num in numbers))
+# print("\nEXISTANCE OF AN ITEM")
+# num = input("Enter any number to check: ")
+# print("Item exists: " + str(num in numbers))
+
+# Count existance of a number
+print("\nCOUNT EXISTANCE OF AN ITEM")
+num = input("Enter any item from list: ")
+count = numbers.count(num)
+print("The item exists " + str(count) + " times")
+
+# Sorting
+print("\nSORT METHOD")
+numbers.sort()
+print(numbers)
+
+# REVERSING
+print("\nREVERSE METHOD")
+numbers.reverse()
+print(numbers)
 
