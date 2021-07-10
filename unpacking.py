@@ -11,3 +11,4 @@ print (a,b,c)
 coordinate = [5,6,7]
 x, y, z = coordinate
 print (x, y, z)
+
