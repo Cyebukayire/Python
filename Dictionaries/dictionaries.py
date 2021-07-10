@@ -4,4 +4,4 @@ customers = {
     "is_verified": True
 }
 
-print(customers["name"], customers.get("age"))
+print(customers["name"], customers.get("name"))
