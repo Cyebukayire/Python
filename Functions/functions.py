@@ -3,7 +3,7 @@ def greet_user(name):
 
 print ("Start")
 name = "Shallom"
-greet_user(name)
+greet_user(amazina= name)
 print("Finish")
 
 """ 
