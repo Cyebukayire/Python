@@ -1,6 +1,7 @@
-def greet_user():
-    print("Hi:) Welcome to our system")
+def greet_user(name):
+    print("Hi "+ name +", Welcome to our system")
 
 print ("start")
-greet_user()
+name = "Shallom"
+greet_user(name)
 print("finish")
