@@ -5,3 +5,9 @@ print(numbers)
 # pring all numbers
 for item in numbers:
     print(item)
+
+numbers = (
+    (1,2),
+    (2,3)
+)
+print(numbers[0])
