@@ -4,5 +4,8 @@ try:
 
     income = 1000
     quotient = income/number
+    print(quotient)
 except NameError:
-    print("Invalid input!")
+    print("Error: Invalid input!")
+except ZeroDivisionError:
+    print("Error: Module by zero!")
