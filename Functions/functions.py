@@ -1,9 +1,14 @@
-def greet_user(name):
-    print("Hi "+ name +", Welcome to our system")
+def greet_user(amazina):
+    print("Hi "+ amazina +", Welcome to our system")
 
 print ("Start")
-name = "Shallom"
-greet_user(amazina= name)
+name1 = "Shallom"
+name2 = "Shami"
+# using positional arguments
+greet_user(name1)
+
+# Calling a function using "Keyword arguments" For code readability
+greet_user(amazina= name2)
 print("Finish")
 
 """ 
