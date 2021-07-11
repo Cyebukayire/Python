@@ -11,7 +11,9 @@ numbers = {
     9: "Nine"
 }
 phone = raw_input("Phone: ")
+translated_str = ""
 for item in phone:
-    number = int(item)
-    print(numbers[number])
+    number = int(item)    
+    translated_str += str(numbers[number])
 # print(numbers[1], numbers[2], numbers[3])
+print(translated_str)
