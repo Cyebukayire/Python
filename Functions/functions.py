@@ -2,7 +2,7 @@ def greet_user(amazina):
     print("Hi "+ amazina +", Welcome to our system")
 
 def greet_users(first_name, last_name):
-    print("hello "+ first_name + last_name)
+    print("hello "+ first_name +" "+ last_name)
 
 
 print ("Start")
