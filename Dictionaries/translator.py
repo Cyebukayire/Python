@@ -15,5 +15,4 @@ translated_str = ""
 for item in phone:
     number = int(item)    
     translated_str += str(numbers.get(number)) +" "
-# print(numbers[1], numbers[2], numbers[3])
 print(translated_str)
