@@ -1,5 +1,5 @@
 class  Point:
-
+    # We need constructors to initialize more objects
     def __init__(self, x, y, z):
         self.x = x
         self.y = y
@@ -16,3 +16,4 @@ class  Point:
 
 point1 = Point(23,34, 44)
 point1.draw()
+print(point1.z)
