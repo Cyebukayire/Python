@@ -24,7 +24,7 @@ print("Finish")
 """ 
 PARAMETERS VS ARGUMENTS
 
-Arguments are values we pass to functions for be executed while
+Arguments are values we pass to functions to be executed while
 Parameters are variables that hold the arguments/values we pass to functions
 
 Arugemnts are defined while calling the funtion while 
