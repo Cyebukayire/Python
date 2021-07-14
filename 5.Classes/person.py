@@ -8,3 +8,6 @@ class Person():
 
 Person1 = Person("Hanson")
 Person1.talk()
+
+Kellia = Person("Kellia")
+Kellia.talk()
