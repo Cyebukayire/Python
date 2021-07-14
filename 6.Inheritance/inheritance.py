@@ -3,7 +3,7 @@ class Dog():
         self.name = name
 
     def talk(self):
-        print("barks")
+        print(self.name + " barks")
 
 
 simba = Dog("Simba")
