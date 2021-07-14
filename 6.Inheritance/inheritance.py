@@ -3,8 +3,8 @@ class Dog():
         self.name = name
 
     def talk(self):
-        print(self.name + " barks")
+        print(str(self.name) + " barks")
 
 
-simba = Dog("Simba")
+simba = Dog(234)
 simba.talk()
