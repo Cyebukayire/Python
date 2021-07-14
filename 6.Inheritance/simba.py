@@ -3,7 +3,3 @@ from animals import Dog
 
 simba = Dog("Simba")
 simba.walk()
-
-# cat = Cat("my cat")
-# cat.walk()
-# cat.be_annoying()
