@@ -10,11 +10,14 @@ class Dog(Mammal): #Inheritance
 
 
 class Cat(Mammal):
-    pass
-
+    def __init__(self, name):
+        self.name = name
+    def be_annoying(self):
+        print(str(self.name) + " is annoying!")
 
 simba = Dog("Simba")
 simba.walk()
     
-cat = Cat("a cat")
+cat = Cat("my cat")
 cat.walk()
+cat.be_annoying()
