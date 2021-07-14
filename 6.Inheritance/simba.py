@@ -1,9 +1,8 @@
-from dog import dog
-from inher
-# Dog = inheritance.Dog
+from animals import Dog
+# Dog = animals.Dog
 
-# simba = Dog("Simba")
-# simba.walk()
+simba = Dog("Simba")
+simba.walk()
 
 # cat = Cat("my cat")
 # cat.walk()
