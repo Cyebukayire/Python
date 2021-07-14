@@ -1,3 +1,6 @@
 import inheritance
-# simba = Dog("Simba")
-# simba.talk()
+dog = inheritance.Dog
+
+
+maxy = dog("Simba")
+maxy.walk()
