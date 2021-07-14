@@ -3,3 +3,4 @@ from animals import Dog
 
 simba = Dog("Simba")
 simba.walk()
+simba.talk()
