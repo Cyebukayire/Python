@@ -1,4 +1,4 @@
-from animals import Cat
-# Cat = animals.C
+import animals
+Cat = animals.Cat
 mewmew = Cat("mewmew")
 mewmew.walk()
