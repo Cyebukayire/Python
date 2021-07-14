@@ -16,9 +16,6 @@ class Cat(Mammal):
     def be_annoying(self):
         print(str(self.name) + " is annoying!")
 
-simba = Dog("Simba")
-simba.walk()
+# simba = Dog("Simba")
+# simba.walk()
     
-cat = Cat("my cat")
-cat.walk()
-cat.be_annoying()
