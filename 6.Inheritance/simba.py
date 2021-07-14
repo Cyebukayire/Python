@@ -1,10 +1,10 @@
-import inheritance
-Dog = inheritance.Dog
-Cat = inheritance.Cat
+from dog import dog
+from inher
+# Dog = inheritance.Dog
 
-simba = Dog("Simba")
-simba.walk()
+# simba = Dog("Simba")
+# simba.walk()
 
-cat = Cat("my cat")
-cat.walk()
-cat.be_annoying()
+# cat = Cat("my cat")
+# cat.walk()
+# cat.be_annoying()
