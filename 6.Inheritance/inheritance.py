@@ -1,5 +1,5 @@
 
-class Mammal():
+class Mammal(): #Inherited by Dog & Cat in animals module
     def __init__(self, name):
         self.name = name
 
@@ -32,3 +32,4 @@ IMPLEMENTATION OF OBJECTS IN THE SAME CLASS AS PARENT CLASS
 # cat = Cat("my cat")
 # cat.walk()
 # cat.be_annoying()
+
