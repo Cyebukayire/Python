@@ -8,3 +8,8 @@ ex: c:\Program files\Windows
 
 path = Path("ecommerce")
 print(path.exists)
+if not path.exists:
+    path.mkdir
+else:
+    print("Path Already Exists")
+
