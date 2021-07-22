@@ -16,11 +16,11 @@ DOG OBJECT
 """
 CAT OBJECT 
 """
-# class Cat(Mammal):
-#     def __init__(self, name):
-#         self.name = name
-#     def be_annoying(self):
-#         print(str(self.name) + " is annoying!")
+class Cat(Mammal):
+    def __init__(self, name):
+        self.name = name
+    def be_annoying(self):
+        print(str(self.name) + " is annoying!")
 
 
 """
