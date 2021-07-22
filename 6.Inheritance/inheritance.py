@@ -9,8 +9,8 @@ class Mammal(): #Inherited by Dog & Cat in animals module
 """
 DOG OBJECT 
 """
-# class Dog(Mammal): #Inheritance
-#     pass #Python doesn't like emmpty classes, so, this line will fill the gap
+class Dog(Mammal): #Inheritance
+    pass #Python doesn't like emmpty classes, so, this line will fill the gap
 
 
 """
@@ -26,10 +26,10 @@ class Cat(Mammal):
 """
 IMPLEMENTATION OF OBJECTS IN THE SAME CLASS AS PARENT CLASS 
 """
-# simba = Dog("Simba")
-# simba.walk()
+simba = Dog("Simba")
+simba.walk()
     
-# cat = Cat("my cat")
-# cat.walk()
-# cat.be_annoying()
+cat = Cat("my cat")
+cat.walk()
+cat.be_annoying()
 
