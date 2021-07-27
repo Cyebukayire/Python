@@ -17,3 +17,4 @@ for file in path.glob("*.py"):
 #print all txt files in the path directory
 for file in path.glob("*.txt"): 
     print(file)
+
