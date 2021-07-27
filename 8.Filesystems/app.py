@@ -9,7 +9,13 @@ ex: c:\Program files\Windows
 path = Path("ecommerce")
 print(path.exists)
 if not path.exists:
-    path.mkdir
+    path.mkdir #Create the Directory
 else:
-    print("Path Already Exists")
+    print("Directory Already Exists")
+    path.rmdir #delete the fiDirectoryle
+    print("Directory deleted")
+
+
+
+
 
