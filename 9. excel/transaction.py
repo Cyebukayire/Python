@@ -1,4 +1,5 @@
 import openpyxl as xl
+from openpyxl.chart import BarChart, reference
 
 workbook = xl.load_workbook("transactions.xlsx")
 sheet1 = workbook['Sheet1']
@@ -12,8 +13,8 @@ sheet1 = workbook['Sheet1']
 
 #  Print all the values
 for row in range(2, sheet1.max_row + 1):
-    col3 = sheet1.cell(row, 3).value
-    correct_price = col3 * 0.9
+    cell = sheet1.cell(row, 3)
+    correct_price = cell.value * 0.9
     correct_price_cell = sheet1.cell(row, 4)
     correct_price_cell.value = correct_price
 
