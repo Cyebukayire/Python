@@ -26,3 +26,4 @@ def process(filename):
     workbook.save(filename)
 
 
+process('transactions.xlsx')
