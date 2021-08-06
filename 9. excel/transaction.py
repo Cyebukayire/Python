@@ -1,5 +1,5 @@
 import openpyxl as xl
-from openpyxl.chart import BarChart, reference
+from openpyxl.chart import BarChart, Reference
 
 workbook = xl.load_workbook("transactions.xlsx")
 sheet1 = workbook['Sheet1']
@@ -17,7 +17,13 @@ for row in range(2, sheet1.max_row + 1):
     correct_price = cell.value * 0.9
     correct_price_cell = sheet1.cell(row, 4)
     correct_price_cell.value = correct_price
-
 sheet1.cell(1, 4).value = "Correct Price"
+
+values = Reference(sheet1,
+          min_row=2,
+          max_row=4,
+          min_col=4,
+          max_col=4)
+
 workbook.save("transactions2.xlsx")
 
