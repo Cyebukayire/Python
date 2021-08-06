@@ -21,9 +21,13 @@ sheet1.cell(1, 4).value = "Correct Price"
 
 values = Reference(sheet1,
           min_row=2,
-          max_row=4,
+          max_row=sheet1.max_row,
           min_col=4,
           max_col=4)
+
+chart = BarChart()
+chart.add_data(values)
+sheet1.add_chart(chart, 'e2')
 
 workbook.save("transactions2.xlsx")
 
